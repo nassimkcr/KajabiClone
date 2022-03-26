@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightgrey;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+
+.container {
+    width: 340px;
+    height: 510px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.content-ctr{
+    padding: 30px 40px;
+    box-sizing: border-box;
+
+}
+
+.logo{
+    width: 50%;
+    
+}
+
+a{
+    color: rgb(60, 80, 140);
+}
+a:visited{
+    color: rgb(60, 80, 140);
+}
+
+a:hover{
+    color: rgb(70, 50, 240);
+}
+
+.top-ctr{
+    text-align: center;
+}
+
+.top-ctr > img {
+    margin-bottom: 40px;
+}
+
+.top-ctr > p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.top-ctr > h2 {
+    margin-bottom: 20px;
+}
+
+input[type="password"], input[type="email"]{
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+
+}
+
+.check-ctr{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.check-ctr > input{
+ transform: scale(0.8);
+ margin-right: 5px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: rgb(67, 124, 146);
+    color: white;
+    font-size: 1.03rem;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(94, 168, 197);
+    
+}
+
+.fg-pw{
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 780px) {
+    .container {
+        box-shadow: 14px 13px 12px 3px rgba(179,169,169,0.55);
+        -webkit-box-shadow: 14px 13px 12px 3px rgba(179,169,169,0.55);
+        -moz-box-shadow: 14px 13px 12px 3px rgba(179,169,169,0.55);
+        height: 430px;
+    }
+    .check-ctr{
+        
+        margin-top: 10px;
+        margin-bottom: 6px;
+    }
+    .fg-pw{
+        margin-top: 10px;
+    }
+    
+}
+
+
+@media screen and (min-width: 990px) {
+    .container{
+        width: 680px;
+        display: flex;
+
+    }
+    .content-ctr{
+        width: 50%;
+    }
+
+    .img-ctr{
+        width: 50%;
+        height: 100%;
+        background-image: url('workerimg.jpg');
+        background-size: 190%;
+        border-radius: 0px 5px 5px 0px;
+
+    }
+}
